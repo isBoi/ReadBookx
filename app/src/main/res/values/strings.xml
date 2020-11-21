@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ReadBook</string>
+    <string name="icon">&#xe68e;</string>
+    <string name="icon2">&#xe61a;</string>
+    <string name="icon3">&#xe63c;</string>
+    <string name="icon4">&#xe62a;</string>
+    <string name="icon5">&#xe625;</string>
+    <string name="icon6">&#xe617;</string>
+    <string name="icon7">&#xe60e;</string>
+    <string name="icon8">&#xe505;</string>
+    <string name="icon9">&#xe60d;</string>
+    <string name="icon10">&#xe510;</string>
+</resources>

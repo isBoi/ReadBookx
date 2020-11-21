@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorpifu">#d7c6a2</color>
+    <color name="colorbrown">#ccb991</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="colorGray">#D5D5D5</color>
+    <color name="colordeepBrown">#996804</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <!--半透明-->
+    <color name="translucent">#22050505</color>
+    <color name="backgroundblack">#181818</color>
+    <color name="characterwhite">#b2b2b2</color>
+    <color name="backgrounddeepblack">#262626</color>
+    <color name="gray">#767676</color>
+    <color name="textblack">#302303</color>
+    <color name="bookcolor">#bebebe</color>
+    <color name="booknamebackground">#f5f5f5</color>
+    <color name="red">#e5353f</color>
+    <color name="whitegray">#c5c5c5</color>
+    <color name="backgroundgray">#f5f5f5</color>
+    <color name="green">#00FF00</color>
+</resources>
+

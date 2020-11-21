@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <LinearLayout
+       android:id="@+id/ba_ll"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:paddingTop="10dp"
+       android:paddingBottom="10dp"
+       android:background="@color/colorWhite"
+       >
+       <ImageView
+           android:id="@+id/ba_image"
+           android:layout_width="60dp"
+           android:layout_height="75dp"
+           android:background="@color/colorGray"
+           android:scaleType="centerCrop">
+       </ImageView>
+       <LinearLayout
+           android:layout_weight="1"
+           android:layout_width="wrap_content"
+           android:layout_height="75dp"
+           android:background="@color/colorWhite"
+           android:orientation="vertical"
+           android:paddingLeft="20dp"
+           >
+
+           <TextView
+               android:id="@+id/ba_bookname"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:text="斗罗大陆"
+               android:textSize="20sp"
+               android:layout_weight="3">
+
+           </TextView>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="3"
+               android:orientation="vertical"
+               >
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/whitegray"
+                       android:text="作者："
+                       android:textSize="15sp"
+                       ></TextView>
+                   <TextView
+                       android:id="@+id/ba_author"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/whitegray"
+                       android:text="唐家三少"
+                       android:textSize="15sp"
+                       ></TextView>
+               </LinearLayout>
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="状态："
+                       android:textColor="@color/whitegray"
+                       android:textSize="15sp"
+                       android:paddingRight="5dp"
+                       ></TextView>
+                   <TextView
+                       android:id="@+id/ba_state"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@color/whitegray"
+                       android:text="连载"
+                       android:textSize="15sp"
+                       ></TextView>
+               </LinearLayout>
+           </LinearLayout>
+
+
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
